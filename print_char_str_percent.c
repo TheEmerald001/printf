@@ -35,7 +35,7 @@ int print_string(va_list l, flags_t *f)
  * @l: va_list for functio
  * @f: pointer to structure flags
  * Return: the number of characters printed
- */ print_char_str_%.c
+ */
 int print_percentagesign(va_list l, flags_t *f)
 {
 	(void)l;
