@@ -28,7 +28,7 @@ typedef struct printHandler
 {
 	char c;
 	int (*f)(va_list ap, flags_t *f);
-} ph
+} ph;
 
 /* Functions for task one */
 int _printf(const char *format, ...);
