@@ -36,6 +36,12 @@ int print_char(va_list l, flags_t *f);
 int print_string(va_list l, flags_t *f);
 int print_percentagesign(va_list l, flags_t *f);
 
+/* Functions to deal with numbers */
+int print_int(va_list l, flags_t *f);
+int count_digit(int i);
+int print_unsigned(va_list l, flags_t *f);
+void print_number(int n);
+
 /* write_funcs */
 int _putchar(char c);
 int _puts(char *str);
