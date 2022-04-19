@@ -17,7 +17,8 @@ int (*get_print(char s))(va_list, flags_t *)
 		{'c', print_char},
 		{'%', print_percentagesign},
 		{'i', print_int},
-		{'d', print_int}
+		{'d', print_int},
+		{'b', print_binary}
 		};
 	int flags = 14;
 
