@@ -52,7 +52,7 @@ int count_digit(int i)
  * if a flag is passed to _printf
  * Return: number of char printed
  */
-/* int print_unsigned(va_list l, flags_t *f)
+ int print_unsigned(va_list l, flags_t *f)
 {
 	unsigned int u = va_arg(l, unsigned int);
 	char *str = convert(u, 10, 0);
@@ -60,7 +60,7 @@ int count_digit(int i)
 	(void)f;
 	return (_puts(str));
 }
-*/
+
 
 /**
  * print_number - helper function that loops through
