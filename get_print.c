@@ -22,7 +22,8 @@ int (*get_print(char s))(va_list, flags_t *)
 		{'u', print_unsigned},
 		{'o', print_octal},
 		{'x', print_hexlower},
-		{'X', print_hexupper}
+		{'X', print_hexupper},
+		{'p', print_address}
 		};
 	int flags = 14;
 
