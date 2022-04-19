@@ -40,4 +40,10 @@ int print_percentagesign(va_list l, flags_t *f);
 int _putchar(char c);
 int _puts(char *str);
 
+/* get_flag */
+int get_flag(char s, flags_t *f);
+
+/* get_print */
+int (*get_print(char s))(va_list, flags_t *);
+
 #endif
