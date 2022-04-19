@@ -19,6 +19,7 @@ int (*get_print(char s))(va_list, flags_t *)
 		{'i', print_int},
 		{'d', print_int},
 		{'b', print_binary},
+		{'u', print_unsigned},
 		{'o', print_octal},
 		{'x', print_hexlower},
 		{'X', print_hexupper}
