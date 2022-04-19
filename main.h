@@ -46,6 +46,8 @@ void print_number(int n);
 char *convert(unsigned long int num, int base, int lowercase);
 int print_binary(va_list l, flags_t *f);
 int print_octal(va_list l, flags_t *f);
+int print_hexlower(va_list l, flags_t *f);
+int print_hexupper(va_list l, flags_t *f);
 
 /* write_funcs */
 int _putchar(char c);
